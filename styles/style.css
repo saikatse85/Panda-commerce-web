@@ -1,0 +1,74 @@
+/* shared Styles */
+
+/* start nav menu */
+.menu_container{
+    max-width: 1125px;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    gap: 56px;
+    padding: 20px 0;
+}
+.search_parent input{
+    padding: 15px 300px 15px 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: #F1F1F1;
+    position: relative;
+}
+.search_parent i{
+    position: absolute;
+    top: 40px;
+    right: 780px;
+    color: #BABABA;
+}
+.nav_menu{
+    display: flex;
+    gap: 24px;
+}
+.nav_menu li{
+    list-style: none;
+}
+.nav_menu li a{
+    text-decoration: none;
+    color: #707070;
+}
+/* start banner */
+.banner-container{
+    margin: 0 auto;
+    max-width: 1215px;
+    background-color: #FEEAE9;
+    padding: 30px 0px 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.banner_content{
+    width: 570px;
+    height: 320px;
+}
+.banner_content h1{
+    font-weight: bold;
+    font-size: 56px;
+    margin-bottom: 0px;
+}
+.banner_content p{
+    width: 435px;
+    color: #4E4E4E;
+    margin-top: 0px;
+}
+.banner_price{
+    color: #FF136F;
+    font-size: 41px;
+    font-weight: bold;
+}
+.panda_buy_btn{
+    border-radius: 6px;
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 20px;
+}
+
+
