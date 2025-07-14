@@ -1,3 +1,6 @@
+body{
+    margin: 0 auto;
+}
 /* shared Styles */
 .btn_panda{
     border-radius: 6px;
@@ -136,6 +139,7 @@
     display: flex;
     gap: 25px;
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 .btn_catagories:nth-child(1){
     background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
@@ -148,13 +152,42 @@
 }
 /* Start product catagory */
 .products_catagory_container{
+    max-width: 2000px;
     background-color: #F4F4F4;
-    margin-top: 50px;
+    margin: 0 auto;
+    padding-bottom: 50px;
 }
-.shoes_parent{
+.product_parent{
     display: flex;
     gap: 20px;
     padding-top: 30px;
+}
+/* Start footer part */
+.footer_container{
+    background-color: #FFF2F1;
+    text-align: center;
+    padding:50px;
+    margin-top: 50px;
+}
+.footer_input{
+    padding: 10px 350px 10px 10px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    color: #FF136F;
+}
+.footer_btn{
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+}
+.footer_container h2{
+    font-size: 36px;
+    color: #1F1F1F;
+}
+.footer_container p{
+    color: #707070;
 }
 
 
