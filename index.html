@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
 </head>
 <body>
     <header>
@@ -18,7 +19,16 @@
             </div>
                 <ul class="nav_menu">
                     <li><a href="">Home</a></li>
-                    <li><a href="">Projects</a></li>
+                    <li class="product_list"><a href="">Products
+                        <i class="fa-solid fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown_nav_items">
+                        <li><a href="">products 1</a></li>
+                        <li><a href="">products 2</a></li>
+                        <li><a href="">products 3</a></li>
+                        <li><a href="">products 4</a></li>
+                    </ul>
+                    </li>
                     <li><a href="">About us</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
@@ -111,8 +121,10 @@
         <div class="footer_container container_2">
             <h1>LET'S STAY IN TOUCH</h1>
             <p>Get updates on sales specials and more</p>
+            <div class="contact_input_parent">
             <input class="footer_input" type="email" placeholder="Enter Your Email">
             <button class="footer_btn">Send</button>
+            </div>
         </div>
       </footer>
 </html>
