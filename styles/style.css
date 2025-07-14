@@ -1,11 +1,40 @@
 /* shared Styles */
-
-/* start nav menu */
-.menu_container{
-    max-width: 1125px;
-    justify-content: center;
+.btn_panda{
+    border-radius: 6px;
+    color: white;
+    border: none;
+}
+.container_1{
+    max-width: 1140px;
     margin: 0 auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_2{
+    margin: 0 auto;
+    max-width: 1215px;
+    background-color: #FEEAE9;
+    border-radius: 20px;
+    display: flex;
+}
+.btn_catagories{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    justify-content: space-between;
+    flex: 1;
+}
+.catagories_itm{
+    font-size: 36px;
+}
+.catagories_img{
+    height: 90px;
+    width: 70px;
+}
+/* start nav menu */
+.menu_container{
     gap: 56px;
     padding: 20px 0;
 }
@@ -35,13 +64,8 @@
 }
 /* start banner */
 .banner-container{
-    margin: 0 auto;
-    max-width: 1215px;
-    background-color: #FEEAE9;
     padding: 30px 0px 0px 40px;
-    display: flex;
     justify-content: space-between;
-    border-radius: 20px;
 }
 .banner_content{
     width: 570px;
@@ -57,18 +81,31 @@
     color: #4E4E4E;
     margin-top: 0px;
 }
-.banner_price{
+.panda_price{
     color: #FF136F;
     font-size: 41px;
     font-weight: bold;
 }
 .panda_buy_btn{
-    border-radius: 6px;
     background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
-    color: white;
-    border: none;
     font-size: 24px;
-    padding: 20px;
+    padding: 20px 30px;
+    margin-top: 20px;
 }
+/* start categories styles */
+.catagories_container{
+    gap: 25px;
+    margin-top: 50px;
+}
+.btn_catagories:nth-child(1){
+    background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
+}
+.btn_catagories:nth-child(2){
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+}
+.btn_catagories:nth-child(3){
+    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+}
+
 
 
