@@ -72,19 +72,21 @@
 .menu_container{
     display: flex;
     gap: 56px;
-    padding: 20px 0;
+    padding: 20px 0px;
 }
-.search_parent input{
+.input_search{
     padding: 15px 300px 15px 10px;
     border-radius: 30px;
     border: none;
     background-color: #F1F1F1;
+}
+.search_parent{
     position: relative;
 }
-.search_parent i{
+.fa{
     position: absolute;
-    top: 40px;
-    right: 780px;
+    top: 13px;
+    right:17px;
     color: #BABABA;
 }
 .nav_menu{
